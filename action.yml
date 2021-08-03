@@ -4,7 +4,7 @@ author: 'TODO: <your-name>'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN'
-    default: '${{ github.token }}'
+    default: '${{ secrets.REPO_TOKEN_GIT }}'
   workdir:
     description: 'Working directory relative to the root directory.'
     default: '.'
